@@ -12,8 +12,7 @@ export default Movies;
 */
 
 import { Link } from 'react-router-dom';
-import { movies } from '../data/data';
-import { MovieCard }from './components/MovieCard';
+import MovieCard from '../components/MovieCard';
 
 function Movies() {
   return (
