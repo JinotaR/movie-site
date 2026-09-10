@@ -3,42 +3,9 @@ import MovieCard from '../components/MovieCard';
 import MovieGallery from '../components/MovieGallery';
 
 function Home() {
-  const movies = [
-    {
-      id: 1,
-      title: 'Interstellar',
-      year: 2014,
-    },
-    {
-      id: 2,
-      title: 'Your Name',
-      year: 2016,
-    },
-    {
-      id: 3,
-      title: 'Parasite',
-      year: 2019,
-    },
-    {
-      id: 4,
-      title: 'Dune',
-      year: 2021,
-    },
-    {
-      id: 5,
-      title: 'Deadpool & Wolverine',
-      year: 2024,
-    },
-    {
-      id: 6,
-      title: 'Avatar: Fire and Ash',
-      year: 2025,
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-slate-100 p-8">
-      
+
       {/* หัวข้อหน้า Home */}
       <div className="mb-8 text-center">
         <h1 className="text-3xl font-bold text-slate-800">
@@ -61,10 +28,15 @@ function Home() {
         ))}
       </div>
 
-        <h2 className='mt-8 text-2x1 font-bold text-salte-888'>ดูหนังเพิ่มเติม</h2>
-        <div className='mx-auto mt-8 max-w-md'>
-          <MovieGallery />
-        </div>
+      {/* หนังเพิ่มเติม */}
+      <h2 className="mt-8 text-2xl font-bold text-slate-800">
+        ดูหนังเพิ่มเติม
+      </h2>
+
+      <div className="mx-auto mt-8 max-w-md">
+        <MovieGallery />
+      </div>
+
     </div>
   );
 }
