@@ -17,7 +17,7 @@ function Footer() {
         </div>
       </div>
       <p className="mt-6 text-center text-xs text-slate-500">
-        © 2026 MovieHub — สร้างเพื่อการเรียนรู้เท่านั้น
+        © 2026 MovieHub — สร้างเพื่อการเรียนรู้เท่านั้น.
       </p>
     </footer>
   );
